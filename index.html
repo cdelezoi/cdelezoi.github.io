@@ -1,42 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ========== BASIC META ========== -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic website of Camille Delezoide, researcher at Nokia Bell Labs, working on optical networks, QoT, failure prediction, and machine learning.">
+  <meta name="author" content="Camille Delezoide">
+  <meta name="keywords" content="optical networks, QoT, PDL, failure prediction, machine learning, digital twins, Nokia Bell Labs">
   
-  <!-- Google Scholar Meta Tags -->
-  <meta name="citation_title" content="Automated Alignment Between Channel and Filter Cascade"/>
-  <meta name="citation_author" content="Camille Delezoide"/>
-  <meta name="citation_date" content="2019"/>
-  <meta name="citation_pdf_url" content="https://cdelezoi.github.io/Automated_Alignment_Between_Channel_and_Filter_Cascade.pdf"/>
+  <!-- ========== PAGE TITLE ========== -->
+  <title>Camille Delezoide – Academic Website</title>
 
-  <meta name="citation_title" content="Automated Mitigation of Quality of Transmission Fluctuations Induced by PDL Anomalies"/>
-  <meta name="citation_author" content="Camille Delezoide"/>
-  <meta name="citation_date" content="2023"/>
-  <meta name="citation_pdf_url" content="https://cdelezoi.github.io/Automated_Mitigation_of_Quality_of_Transmission_Fluctuations_Induced_by_PDL_Anomalies.pdf"/>
-
-  <meta name="citation_title" content="Marginless Operation of Optical Networks"/>
-  <meta name="citation_author" content="Camille Delezoide"/>
-  <meta name="citation_date" content="2019"/>
-  <meta name="citation_pdf_url" content="https://cdelezoi.github.io/field_trial_delezoide_jlt_2019.pdf"/>
-
-  <meta name="citation_title" content="Field Trial of Failure Localization in a Backbone Optical Network"/>
-  <meta name="citation_author" content="Camille Delezoide"/>
-  <meta name="citation_date" content="2021"/>
-  <meta name="citation_pdf_url" content="https://cdelezoi.github.io/Field_Trial_of_Failure_Localization_in_a_Backbone_Optical_Network.pdf"/>
-
-  <meta name="citation_title" content="Investigating Q-drops and Their Probable Causes"/>
-  <meta name="citation_author" content="Camille Delezoide"/>
-  <meta name="citation_date" content="2022"/>
-  <meta name="citation_pdf_url" content="https://cdelezoi.github.io/Investigating_Q-drops_and_Their_Probable_Causes.pdf"/>
-
-  <title>Camille Delezoide | Academic Website</title>
+  <!-- ========== YOUR EXISTING CSS / SCRIPTS ========== -->
   <style>
     body { font-family: Arial, sans-serif; max-width: 800px; 
            margin: auto; padding: 20px; }
     h1 { color: #003366; }
     a { color: #0066cc; }
   </style>
+  
+  <!-- ========== JSON-LD STRUCTURED DATA ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+
+      {
+        "@type": "ProfilePage",
+        "@id": "https://cdelezoi.github.io/",
+        "url": "https://cdelezoi.github.io/",
+        "name": "Camille Delezoide – Academic Website",
+        "description": "Academic website of Camille Delezoide, senior researcher at Nokia Bell Labs.",
+        "mainEntity": {
+          "@type": "Person",
+          "@id": "https://cdelezoi.github.io/#person",
+          "name": "Camille Delezoide",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Nokia Bell Labs"
+          },
+          "email": "camille.delezoide@nokia-bell-labs.com",
+          "url": "https://cdelezoi.github.io/",
+          "sameAs": [
+            "https://scholar.google.com/citations?user=IbHjVL0AAAAJ&hl=fr"
+          ]
+        }
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "On the Performance Prediction of Optical Transmission Systems in Presence of Filtering",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2017",
+        "publisher": { "@type": "Organization", "name": "ICTON" },
+        "url": "https://cdelezoi.github.io/On_the_performance_prediction_of_optical_transmission_systems_in_presence_of_filtering.pdf"
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "Automated Alignment Between Channel and Filter Cascade",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2019",
+        "publisher": { "@type": "Organization", "name": "OFC" },
+        "url": "https://cdelezoi.github.io/Automated_Alignment_Between_Channel_and_Filter_Cascade.pdf"
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "Marginless Operation of Optical Networks",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2019",
+        "publisher": { "@type": "Organization", "name": "Journal of Lightwave Technology" },
+        "url": "https://cdelezoi.github.io/field_trial_delezoide_jlt_2019.pdf"
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "Leveraging Field Data for the Joint Optimization of Capacity and Availability in Low-Margin Optical Networks",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2020",
+        "publisher": { "@type": "Organization", "name": "Journal of Lightwave Technology" },
+        "url": "https://cdelezoi.github.io/Leveraging_Field_Data_for_the_Joint_Optimization_of_Capacity_and_Availability_in_Low-Margin_Optical_Networks.pdf"
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "Field Trial of Failure Localization in a Backbone Optical Network",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2021",
+        "publisher": { "@type": "Organization", "name": "ECOC" },
+        "url": "https://cdelezoi.github.io/Field_Trial_of_Failure_Localization_in_a_Backbone_Optical_Network.pdf"
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "Investigating Q-drops and Their Probable Causes",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2022",
+        "publisher": { "@type": "Organization", "name": "ECOC" },
+        "url": "https://cdelezoi.github.io/Investigating_Q-drops_and_Their_Probable_Causes.pdf"
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "Automated Mitigation of Quality of Transmission Fluctuations Induced by PDL Anomalies",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2023",
+        "publisher": { "@type": "Organization", "name": "ONDM" },
+        "url": "https://cdelezoi.github.io/Automated_Mitigation_of_Quality_of_Transmission_Fluctuations_Induced_by_PDL_Anomalies.pdf"
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "On the detection, modeling, and mitigation of anomalous QoT fluctuations in optical networks",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2024",
+        "publisher": { "@type": "Organization", "name": "Journal of Optical Communications and Networking" },
+        "url": "https://cdelezoi.github.io/On_the_detection_modeling_and_mitigation_of_anomalous_QoT_fluctuations_in_optical_networks.pdf"
+      },
+
+      {
+        "@type": "ScholarlyArticle",
+        "headline": "Machine Learning Based Failure Prediction for Optical Network Digital Twins",
+        "author": { "@id": "https://cdelezoi.github.io/#person" },
+        "datePublished": "2025",
+        "publisher": { "@type": "Organization", "name": "OFC" },
+        "url": "https://cdelezoi.github.io/Machine_Learning_Based_Failure_Prediction_for_Optical_Network_Digital_Twins.pdf"
+      }
+
+    ]
+  }
+  </script>
+  
+
+  
 </head>
 <body>
 
