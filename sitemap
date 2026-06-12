@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main page -->
+  <url>
+    <loc>https://cdelezoi.github.io/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Replace with your actual PDF filenames -->
+  <url>
+    <loc>https://cdelezoi.github.io/Automated_Alignment_Between_Channel_and_Filter_Cascade.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/Automated_Mitigation_of_Quality_of_Transmission_Fluctuations_Induced_by_PDL_Anomalies.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/field_trial_delezoide_jlt_2019.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/Field_Trial_of_Failure_Localization_in_a_Backbone_Optical_Network.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/Investigating_Q-drops_and_Their_Probable_Causes.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/Leveraging_Field_Data_for_the_Joint_Optimization_of_Capacity_and_Availability_in_Low-Margin_Optical_Networks.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/Machine_Learning_Based_Failure_Prediction_for_Optical_Network_Digital_Twins.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/On_the_detection_modeling_and_mitigation_of_anomalous_QoT_fluctuations_in_optical_networks.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/On_the_performance_prediction_of_optical_transmission_systems_in_presence_of_filtering.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/Practical_Strategies_Leveraging_AI_and_Digital_Twins_for_the_Design_and_Management_of_Future_Optical_Networks.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/Streamlined_Failure_Localization_Method_and_Application_to_Network_Health_Monitoring.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://cdelezoi.github.io/Weighted_Filter_Penalty_Prediction_for_QoT_Estimation.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Add one <url> block per paper -->
+
+</urlset>
